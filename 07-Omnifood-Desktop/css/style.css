@@ -210,12 +210,19 @@
 
 .section-meals {
   padding: 9.6rem 0;
+
 }
 
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
   overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translate(0, -1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
 .meal-content {
@@ -224,6 +231,8 @@
 
 .meal-tags {
   margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
 }
 
 .tag {
@@ -231,11 +240,24 @@
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  background-color: #51c466;
   color: #333;
   border-radius: 100px;
   font-weight: 600;
 }
+
+
+.tag--vegetarian {
+  background-color: #51c466;
+}
+
+.tag--vegan {
+  background-color: #94f82f;
+}
+
+.tag--paleo {
+  background-color: #ffd43b;
+}
+
 
 .meal-title {
   font-size: 2.4rem;
@@ -268,7 +290,92 @@
   width: 100%;
 }
 
+.all-recipes {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
 strong {
   font-weight: 500;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+}
+
+/**********************/
+/* MEALS SECTION */
+/**********************/
+
+.section-testimonials {
+  background-color: #fae5d3;
+  display: grid;
+  grid-template-columns: 55fr 45fr;
+  align-items: center;
+}
+
+.testimonials-container {
+  padding: 9.6rem;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
 
