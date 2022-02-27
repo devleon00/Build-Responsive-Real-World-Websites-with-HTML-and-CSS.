@@ -19,9 +19,7 @@ The smart 365-days-per-year food subscription that will make you eat healthy aga
 ### Omnifood features
 
 Never cook again!: Our subscriptions cover 365 days per year, even including major holidays.
-Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals.
-No waste: All our partners only use reusable containers to package all your meals.
-Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
+
 
 ### How Omnifood works
 
@@ -83,12 +81,6 @@ Starter: $399 per month
 - Order times are between 11am and 9pm
 - Delivery is free
 
-Complete: $649 per month
-
-- 2 meal2 per day
-- Order 24/7
-- Delivery is free
-- Get access to latest recipes
 
 ### Photo gallery
 
